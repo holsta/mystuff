@@ -1,0 +1,25 @@
+$OpenBSD$
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+Databases
+=========
+Roundup supports a number of databases as back-ends. SQLite works by
+default which should be fine for testing and smaller installations.
+
+In addition, this port comes with a flavour to support PostgreSQL.
+
+Tracker location
+================
+The tracker lives in ${HOMEDIR}. First, install the config and HTML
+files and answer questions about path, template and database backend:
+
+    alias ra=sudo -u _roundup roundup-admin
+    ra install ${HOMEDIR}
+
+Then, initialise the database:
+
+    ra init ${HOMEDIR}
+
+

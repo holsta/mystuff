@@ -1,0 +1,10 @@
+Flexible issue tracker allowing tracking of many styles including
+classic bug tracking/TODO management, help desk, sales leads. Comes
+with several templates and creating your own is straightforward.
+Supports SQLite and PostgreSQL backends, offers UIs via web, email
+cli and remote API. The web interface is easy to extend and there is
+account and role-based access control.
+
+Flavor:
+        pgsql      - use a PostgreSQL backend
+-

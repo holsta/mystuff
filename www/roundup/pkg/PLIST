@@ -202,6 +202,7 @@ lib/python${MODPY_VERSION}/site-packages/roundup/version_check.py
 lib/python${MODPY_VERSION}/site-packages/roundup/version_check.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/xmlrpc.py
 lib/python${MODPY_VERSION}/site-packages/roundup/xmlrpc.pyc
+share/doc/pkg-readmes/${FULLPKGNAME}
 share/doc/roundup/
 share/doc/roundup/html/
 share/doc/roundup/html/FAQ.html
@@ -246,6 +247,8 @@ share/locale/nb/LC_MESSAGES/roundup.mo
 share/locale/ru/LC_MESSAGES/roundup.mo
 share/locale/zh_CN/LC_MESSAGES/roundup.mo
 share/locale/zh_TW/LC_MESSAGES/roundup.mo
+share/man/
+share/man/man1/
 @man share/man/man1/roundup-admin.1
 @man share/man/man1/roundup-demo.1
 @man share/man/man1/roundup-mailgw.1

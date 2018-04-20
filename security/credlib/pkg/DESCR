@@ -1,0 +1,3 @@
+credlib is a credential library providing a simple interface to Brands
+credentials (by Dr Stefan Brands), and also Chaumian credentials (by Dr David
+Chaum).

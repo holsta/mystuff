@@ -2,7 +2,7 @@
 
 COMMENT =		hosting control panel software
 
-VERSION =		3.0.5.3
+VERSION =		3.1.11
 DISTNAME =		ISPConfig-${VERSION}
 PKG_NAME =		ispconfig-${VERSION}
 PKG_NAME-dashboard =	ispconfig-dashboard-${VERSION}
@@ -20,7 +20,7 @@ PKG_NAME-nginx=		ispconfig-nginx-${VERSION}
 
 CATEGORIES =	www 
 
-HOMEPAGE =	http://www.ispconfig.org/
+HOMEPAGE =	https://www.ispconfig.org/
 
 MAINTAINER =	Alex Holst <a@mongers.org>
 

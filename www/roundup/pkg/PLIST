@@ -22,14 +22,10 @@ lib/python${MODPY_VERSION}/site-packages/roundup/anypy/dbm_.py
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/dbm_.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/email_.py
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/email_.pyc
-lib/python${MODPY_VERSION}/site-packages/roundup/anypy/hashlib_.py
-lib/python${MODPY_VERSION}/site-packages/roundup/anypy/hashlib_.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/http_.py
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/http_.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/io_.py
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/io_.pyc
-lib/python${MODPY_VERSION}/site-packages/roundup/anypy/sets_.py
-lib/python${MODPY_VERSION}/site-packages/roundup/anypy/sets_.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/urllib_.py
 lib/python${MODPY_VERSION}/site-packages/roundup/anypy/urllib_.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/
@@ -43,8 +39,6 @@ lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_postgresql.py
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_postgresql.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_sqlite.py
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_sqlite.pyc
-lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_tsearch2.py
-lib/python${MODPY_VERSION}/site-packages/roundup/backends/back_tsearch2.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/blobfiles.py
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/blobfiles.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/indexer_common.py
@@ -65,8 +59,6 @@ lib/python${MODPY_VERSION}/site-packages/roundup/backends/sessions_dbm.py
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/sessions_dbm.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/sessions_rdbms.py
 lib/python${MODPY_VERSION}/site-packages/roundup/backends/sessions_rdbms.pyc
-lib/python${MODPY_VERSION}/site-packages/roundup/backends/tsearch2_setup.py
-lib/python${MODPY_VERSION}/site-packages/roundup/backends/tsearch2_setup.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/cgi/
 lib/python${MODPY_VERSION}/site-packages/roundup/cgi/KeywordsExpr.py
 lib/python${MODPY_VERSION}/site-packages/roundup/cgi/KeywordsExpr.pyc
@@ -173,8 +165,6 @@ lib/python${MODPY_VERSION}/site-packages/roundup/msgfmt.py
 lib/python${MODPY_VERSION}/site-packages/roundup/msgfmt.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/password.py
 lib/python${MODPY_VERSION}/site-packages/roundup/password.pyc
-lib/python${MODPY_VERSION}/site-packages/roundup/rfc2822.py
-lib/python${MODPY_VERSION}/site-packages/roundup/rfc2822.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/roundupdb.py
 lib/python${MODPY_VERSION}/site-packages/roundup/roundupdb.pyc
 lib/python${MODPY_VERSION}/site-packages/roundup/scripts/
@@ -365,7 +355,6 @@ share/roundup/templates/devel/html/style.css
 share/roundup/templates/devel/html/task.index.html
 share/roundup/templates/devel/html/task.item.html
 share/roundup/templates/devel/html/task.search.html
-share/roundup/templates/devel/html/tracker.css
 share/roundup/templates/devel/html/user.forgotten.html
 share/roundup/templates/devel/html/user.help-search.html
 share/roundup/templates/devel/html/user.help.html

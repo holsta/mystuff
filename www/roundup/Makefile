@@ -1,9 +1,9 @@
 # $OpenBSD$
 COMMENT 		= flexible issue tracker
 
-MODPY_EGG_VERSION 	= 1.5.0
+MODPY_EGG_VERSION 	= 1.5.1
 DISTNAME 		= roundup-${MODPY_EGG_VERSION}
-REVISION		=4
+#REVISION		=4
 
 CATEGORIES 		= www
 

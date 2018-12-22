@@ -1,0 +1,12 @@
+#!/bin/ksh
+#
+# $OpenBSD: rc.template,v 1.12 2018/01/11 19:30:18 rpe Exp $
+
+daemon="${TRUEPREFIX}/sbin/slant-collectd"
+
+. /etc/rc.d/rc.subr
+
+rc_bg=YES
+rc_reload=NO
+
+rc_cmd $1

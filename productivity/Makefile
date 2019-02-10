@@ -1,5 +1,5 @@
 
-SUBDIR = timewarrior 
+#SUBDIR = 
 
 
 .include <bsd.subdir.mk>

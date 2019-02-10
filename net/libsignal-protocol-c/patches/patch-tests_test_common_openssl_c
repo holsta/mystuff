@@ -1,0 +1,13 @@
+$OpenBSD$
+
+Index: tests/test_common_openssl.c
+--- tests/test_common_openssl.c.orig
++++ tests/test_common_openssl.c
+@@ -5,6 +5,7 @@
+ #include <openssl/hmac.h>
+ #include <openssl/rand.h>
+ #include <openssl/sha.h>
++#include <limits.h>
+ 
+ int test_random_generator(uint8_t *data, size_t len, void *user_data)
+ {

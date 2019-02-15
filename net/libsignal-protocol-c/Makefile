@@ -2,9 +2,9 @@
 
 COMMENT =	ratcheting forward secrecy protocol
 
-V =		2.3.2
-DISTNAME =	libsignal-protocol-c-${V}
-DISTFILES =	v${V}${EXTRACT_SUFX}
+GH_ACCOUNT =	signalapp
+GH_PROJECT =	libsignal-protocol-c
+GH_TAGNAME =	v2.3.2
 
 CATEGORIES =	net
 HOMEPAGE =	https://signal.org/
@@ -16,30 +16,27 @@ PERMIT_PACKAGE_CDROM =	Yes
 
 WANTLIB += c pthread
 
-RUN_DEPENDS = devel/cmake \
-	      devel/protobuf-c
+RUN_DEPENDS = devel/protobuf-c
 
-TEST_DEPENDS = devel/check 
+MODULES = devel/cmake
 
-MASTER_SITES = https://github.com/signalapp/libsignal-protocol-c/archive/
+TEST_DEPENDS = devel/check
 
-#WRKDIST =		${WRKDIR}/syncthing
-#WRKSRC =		${WRKDIR}/go/src/github.com/syncthing/syncthing
 SUBST_VARS +=		VARBASE
 
 
-do-build:
-	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
-		cmake -DCMAKE_BUILD_TYPE=Debug .. && \
-	       	${MAKE}
-
-do-test:
-	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
-		cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=1 .. && \
-		cd tests && ${MAKE} && \
-		cd .. && ctest
-
-do-install:
-	install ${WRKSRC}/build/src/libsignal-protocol-c.a ${PREFIX}/lib
-
+#do-build:
+#	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
+#		cmake -DCMAKE_BUILD_TYPE=Debug .. && \
+#	       	${MAKE}
+#
+#do-test:
+#	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
+#		cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=1 .. && \
+#		cd tests && ${MAKE} && \
+#		cd .. && ctest
+#
+#do-install:
+#	install ${WRKSRC}/build/src/libsignal-protocol-c.a ${PREFIX}/lib
+#
 .include <bsd.port.mk>

@@ -22,21 +22,7 @@ MODULES = devel/cmake
 
 TEST_DEPENDS = devel/check
 
-SUBST_VARS +=		VARBASE
+CONFIGURE_ARGS = -DBUILD_TESTING=ON
 
 
-#do-build:
-#	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
-#		cmake -DCMAKE_BUILD_TYPE=Debug .. && \
-#	       	${MAKE}
-#
-do-test:
-	mkdir -p ${WRKSRC}/build && cd ${WRKSRC}/build && \
-		cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=1 .. && \
-		cd tests && ${MAKE} && \
-		cd .. && ctest
-#
-#do-install:
-#	install ${WRKSRC}/build/src/libsignal-protocol-c.a ${PREFIX}/lib
-#
 .include <bsd.port.mk>

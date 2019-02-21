@@ -1,0 +1,6 @@
+@comment $OpenBSD: PLIST,v$
+include/libirc_errors.h
+include/libirc_events.h
+include/libirc_options.h
+include/libirc_rfcnumeric.h
+include/libircclient.h

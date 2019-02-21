@@ -1,0 +1,6 @@
+insobot is an extensible IRC bot built on a module/plugin architecture;
+its functionality is split into separate shared objects that are
+dynamically loaded and hot-reloaded on the fly. 
+
+Written in C, it aims to have a low resource footprint suited for
+running on small Linux devices such as the Raspberry Pi. 
